@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HeroSection() {
   return (
     <section className="bg-gray-900 w-full h-full">
@@ -27,8 +29,8 @@ export default function HeroSection() {
           </div>
         </div>
         <div className=" lg:mt-0 lg:col-span-5 lg:flex ">
-          <img
-            src="https://wallpaperaccess.com/full/2666312.jpg"
+          <Image
+            src="/../public/img01.jpg"
             alt="hero image"
             width="1500"
             height="2500"

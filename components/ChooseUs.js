@@ -38,8 +38,8 @@ export default function ChooseUs() {
             <h2 class="mt-4 text-xl font-bold text-white">Security</h2>
 
             <p class="mt-1 text-sm text-gray-300">
-              Our bank uses advanced security measures to protect our clients'
-              personal and financial information.
+              Our bank uses advanced security measures to protect our
+              client&apos;s personal and financial information.
             </p>
           </a>
 

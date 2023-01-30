@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Link from "next/link";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
@@ -10,50 +11,50 @@ export default function Navbar() {
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
-            <a className="block text-white" href="/">
+            <Link className="block text-white" href="/">
               <span className="text-xl uppercase font-extrabold">
                 Holms Merchant Bank{" "}
               </span>
-            </a>
+            </Link>
           </div>
 
           <div className="hidden md:block">
             <nav aria-label="Site Nav">
               <ul className="flex items-center gap-6 text-sm">
                 <li>
-                  <a
+                  <Link
                     className="text-white text-md font-medium transition hover:text-gray-300/75"
                     href="/"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-white text-md font-medium transition hover:text-gray-300/75"
                     href="services"
                   >
                     Services
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-white text-md font-medium transition hover:text-gray-300/75"
-                    href="testimonies"
+                    href="testimonials"
                   >
                     Testimonials
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="text-white text-md font-medium transition hover:text-gray-300/75"
                     href="contact"
                   >
                     Contact us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -61,12 +62,12 @@ export default function Navbar() {
 
           <div className="flex items-center gap-4">
             <div className="hidden sm:flex sm:gap-4">
-              <a
+              <Link
                 className="rounded-md bg-indigo-600 px-8 py-2.5 text-md font-medium text-white shadow hover:bg-indigo-700"
                 href="login"
               >
                 Login
-              </a>
+              </Link>
             </div>
 
             <div className=" md:hidden" onClick={handleClick}>
@@ -86,33 +87,24 @@ export default function Navbar() {
             }
           >
             <li className="border-b-2 border-zinc-300 w-full p-4">
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
-            <li
-              className="border-b-2 border-zinc-300 w-full p-4 cursor-pointer"
-              href="services"
-            >
-              <a href="/"> Services</a>
+            <li className="border-b-2 border-zinc-300 w-full p-4 cursor-pointer">
+              <Link href=""> Services</Link>
             </li>
-            <li
-              className="border-b-2 border-zinc-300 w-full p-4"
-              href="testimonies"
-            >
-              <a href="/"> Testimonials</a>
+            <li className="border-b-2 border-zinc-300 w-full p-4">
+              <Link href="testomials"> Testimonials</Link>
             </li>
-            <li
-              className="border-b-2 border-zinc-300 w-full p-4"
-              href="contact"
-            >
-              <a href="/"> Contact us</a>
+            <li className="border-b-2 border-zinc-300 w-full p-4">
+              <Link href="contact"> Contact us</Link>
             </li>
             <li className="flex flex-col my-4">
-              <a
+              <Link
                 className="px-8 py-3 bg-indigo-500 rounded-lg text-white"
                 href="login"
               >
                 <button>Log in</button>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -83,12 +84,12 @@ const Login = () => {
               <div class="border-black/12.5 rounded-b-2xl border-t-0 border-solid p-6 text-center pt-0 px-1 sm:px-6">
                 <p class="mx-auto mb-6 leading-normal text-sm">
                   Want to go back to the Home Page?
-                  <a
+                  <Link
                     href="/"
                     class="font-semibold text-transparent bg-clip-text bg-gradient-to-tl from-blue-500 to-violet-500 ml-2"
                   >
                     Click here
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -96,11 +97,11 @@ const Login = () => {
               <div class="relative flex flex-col justify-center h-full bg-cover px-24 m-4 overflow-hidden bg-[url('https://images.unsplash.com/photo-1533421644343-45b606745fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE1fHxiYW5rJTIwc2FmZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60')] rounded-xl ">
                 <span class="absolute top-0 left-0 w-full h-full bg-center bg-cover bg-gradient-to-tl from-blue-500 to-violet-500 opacity-60"></span>
                 <h4 class="z-20 mt-12 font-bold text-white">
-                  "Attention is the new currency"
+                  &quot;The Safe for all currencies&quot;
                 </h4>
                 <p class="z-20 text-white ">
-                  The more effortless the writing looks, the more effort the
-                  writer actually put into the process.
+                  There's no other place to safeguard your resources than Holms
+                  Merchant Bank. Your topmost security is our priority.
                 </p>
               </div>
             </div>

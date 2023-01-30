@@ -1,4 +1,5 @@
 import { AiOutlineCheck } from "react-icons/ai";
+import Image from "next/image";
 
 export default function OurFeatures() {
   return (
@@ -73,11 +74,13 @@ export default function OurFeatures() {
             </li>
           </ul>
         </div>
-        <div class="relative mt-10 -mx-4 md:-mx-12 lg:mt-0 lg:col-start-1">
-          <img
-            src="https://images.unsplash.com/photo-1576165767834-a2ad08f13264?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFua2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        <div class="relative mt-10 -mx-4 md:-mx-12 lg:mt-5 lg:col-start-1 hover:scale-125 transition-transform duration-200 ease-in-out">
+          <Image
+            src="/../public/img03-bank.png"
             alt="banker"
             class="relative w-auto mx-auto shadow-lg rounded-2xl"
+            width={300}
+            height={300}
           />
         </div>
       </div>

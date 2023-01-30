@@ -1,13 +1,15 @@
+import Image from "next/image";
+
 export default function MasterCard() {
   return (
     <div class="flex-auto p-4">
       <div class="flex flex-wrap -mx-3">
         <div class="max-w-full px-3 mb-6 md:mb-0 md:w-1/2 md:flex-none">
           <div class="relative flex flex-row items-center flex-auto min-w-0 p-6 break-words bg-transparent border border-solid shadow-none md-max:overflow-auto rounded-xl border-slate-700 bg-clip-border">
-            <img
+            <Image
               class="mb-0 mr-4 w-1/10"
               priority
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/772px-Mastercard-logo.svg.png?20210817144358"
+              src="/../public/img02.png"
               alt="mastercard"
               width="50"
               height="50"
@@ -29,10 +31,10 @@ export default function MasterCard() {
         </div>
         <div class="max-w-full px-3 md:w-1/2 md:flex-none">
           <div class="relative flex flex-row items-center flex-auto min-w-0 p-6 break-words bg-transparent border border-solid shadow-none md-max:overflow-auto rounded-xl border-slate-700 bg-clip-border text-gray-700 text-lg">
-            <img
+            <Image
               class="mb-0 mr-4 w-1/10"
               priority
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/772px-Mastercard-logo.svg.png?20210817144358"
+              src="/../public/img02.png"
               alt="mastercard"
               width="50"
               height="50"

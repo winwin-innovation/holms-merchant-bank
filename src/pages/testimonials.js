@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar";
+import Image from "next/image";
 import { AiFillStar } from "react-icons/ai";
 
 export default function Testimonials() {
@@ -20,10 +21,12 @@ export default function Testimonials() {
 
           <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-16 lg:grid-cols-3">
             <div>
-              <img
+              <Image
                 alt="Woman"
-                src="https://images.unsplash.com/photo-1599566219227-2efe0c9b7f5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                src="/../public/img05-girl.png"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
+                width={300}
+                height={300}
               />
 
               <blockquote class="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
@@ -47,10 +50,12 @@ export default function Testimonials() {
             </div>
 
             <div>
-              <img
+              <Image
                 alt="Woman2"
-                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                src="/../public/img08-girl.png"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
+                width={300}
+                height={300}
               />
 
               <blockquote class="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
@@ -59,8 +64,9 @@ export default function Testimonials() {
                   Current Account Holder
                 </p>
                 <p class="mt-4 text-sm text-gray-500">
-                  I have the smoothiest banking experience with Holms. There's
-                  no word worthy to be used as a praise for your guys. Thank you
+                  I have the smoothiest banking experience with Holms.
+                  There&rsquo;s no word worthy to be used as a praise for your
+                  guys. Thank you
                 </p>
 
                 <div class="mt-8 flex justify-center gap-0.5 text-green-500 text-xl">
@@ -74,10 +80,12 @@ export default function Testimonials() {
             </div>
 
             <div>
-              <img
+              <Image
                 alt="man3"
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                src="/../public/img06-man.jpg"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
+                width={300}
+                height={300}
               />
 
               <blockquote class="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
@@ -86,8 +94,8 @@ export default function Testimonials() {
                   Fixed Deposit Account Holder
                 </p>
                 <p class="mt-4 text-sm text-gray-500">
-                  If there's another world for perfect then it is Holms. The
-                  fixed deposit transformed me better version of me.
+                  If there&rsquo;s another world for perfect then it is Holms.
+                  The fixed deposit transformed me better version of me.
                 </p>
 
                 <div class="mt-8 flex justify-center gap-0.5 text-green-500 text-xl">
@@ -101,10 +109,12 @@ export default function Testimonials() {
             </div>
 
             <div>
-              <img
+              <Image
                 alt="man4"
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                src="/../public/img09-man.png"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
+                width={300}
+                height={300}
               />
 
               <blockquote class="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
@@ -128,10 +138,12 @@ export default function Testimonials() {
             </div>
 
             <div>
-              <img
+              <Image
                 alt="woman5"
-                src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                src="/../public/img10-girl.png"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
+                width={300}
+                height={300}
               />
 
               <blockquote class="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
@@ -140,8 +152,8 @@ export default function Testimonials() {
                   Savings Account Holder
                 </p>
                 <p class="mt-4 text-sm text-gray-500">
-                  Do you have doubt about banks? Guess you haven't saved with
-                  Holms Merchant Bank yet.
+                  Do you have doubt about banks? Guess you haven&rsquo;t saved
+                  with Holms Merchant Bank yet.
                 </p>
 
                 <div class="mt-8 flex justify-center gap-0.5 text-green-500 text-xl">
@@ -155,10 +167,12 @@ export default function Testimonials() {
             </div>
 
             <div>
-              <img
+              <Image
                 alt="Woman6"
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                src="/../public/img11-girl.png"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
+                width={300}
+                height={300}
               />
 
               <blockquote class="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">

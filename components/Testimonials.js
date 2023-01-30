@@ -1,4 +1,5 @@
 import { BsFillAwardFill } from "react-icons/bs";
+import Image from "next/image";
 
 export default function Testimonials() {
   return (
@@ -18,15 +19,16 @@ export default function Testimonials() {
           <BsFillAwardFill className="h-12 mx-auto mb-3 text-gray-400 text-3xl" />
           <blockquote>
             <p class="text-xl font-medium text-gray-900 md:text-2xl dark:text-white">
-              "I love you guys at Holms. Everything is authentic. Thank me for
-              trusting you guys very much."
+              &quot;I love you guys at Holms. Everything is authentic. Thank me
+              for trusting you guys very much.&quot;
             </p>
           </blockquote>
           <figcaption class="flex items-center justify-center mt-6 space-x-3">
-            <img
+            <Image
               class="w-6 h-6 rounded-full"
-              src="https://images.unsplash.com/photo-1599566219227-2efe0c9b7f5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-              alt="profile picture"
+              src="/../public/img05-girl.png"
+              width={10}
+              height={10}
             />
             <div class="flex items-center divide-x-2 divide-gray-500 ">
               <div class="pr-3 font-medium text-gray-900 dark:text-white">
@@ -44,16 +46,18 @@ export default function Testimonials() {
           <BsFillAwardFill className="h-12 mx-auto mb-3 text-gray-400 text-3xl" />
           <blockquote>
             <p class="text-xl font-medium  md:text-2xl text-white">
-              "Their services and designs are so peculiar and unique. I have the
-              best banking experience with Holms Merchant Bank"
+              &quot;Their services and designs are so peculiar and unique. I
+              have the best banking experience with Holms Merchant Bank&quot;
             </p>
           </blockquote>
           <figcaption class="flex items-center justify-center mt-6 space-x-3">
-            <img
+            <Image
               class="w-6 h-6 rounded-full"
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-              alt="profile picture"
-            />
+              src="/../public/img06-man.jpg"
+              width={50}
+              height={50}
+              alt="man-picture"
+            />{" "}
             <div class="flex items-center divide-x-2 divide-gray-500 ">
               <div class="pr-3 font-medium text-white">Samuel Blankson</div>
               <div class="pl-3 text-sm font-light text-gray-400 ">

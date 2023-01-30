@@ -2,6 +2,8 @@ import Navbar from "../../components/Navbar";
 import { AiOutlineCheck } from "react-icons/ai";
 import { GoPrimitiveDot } from "react-icons/go";
 import AddsOn from "../../components/AddsOn";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Services() {
   return (
@@ -19,24 +21,26 @@ export default function Services() {
 
             <p class="hidden text-gray-500 md:mt-4 md:block">
               We provide the below professional services and provide tailored
-              solutions to our customer's needs
+              solutions to our customer&quot;s needs
             </p>
 
             <div class="mt-4 md:mt-8">
-              <a
+              <Link
                 href="login"
                 class="inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700"
               >
                 Get Started Today
-              </a>
+              </Link>
             </div>
           </div>
         </div>
 
-        <img
+        <Image
           alt="creditcards"
-          src="https://www.telegraph.co.uk/content/dam/personal-banking/2018/05/01/TELEMMGLPICT000160876279_trans_NvBQzQNjv4BqBF1pakI7HIhqtQof41pZznjao0QwBwqd83tmIXywSbA.jpeg"
+          src="/../public/img07-cards.jpeg"
           class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tl-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tl-[60px]"
+          height={900}
+          width={900}
         />
       </div>
 

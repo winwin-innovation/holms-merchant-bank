@@ -1,12 +1,14 @@
-import { AiOutlineCaretDown } from "react-icons/ai";
+import Image from "next/Image";
 
 export default function Profile() {
   return (
     <div>
-      <img
+      <Image
         class="w-10 h-10 rounded-full cursor-pointer"
-        src="https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?w=996&t=st=1675085611~exp=1675086211~hmac=d78c9e87c3b74bf2a9d5a97156c787dc6a18dbb1e3de4bb6d2ed2b0357004022"
+        src="/../public/img04-profile.png"
         alt="User dropdown"
+        width={100}
+        height={100}
       />
     </div>
   );
