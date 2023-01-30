@@ -61,7 +61,7 @@ export default function Footer() {
                   href="services"
                   class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                 >
-                  Sevices
+                  Services
                 </Link>
               </div>
 
