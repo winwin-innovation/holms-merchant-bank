@@ -1,4 +1,5 @@
 import Image from "next/image";
+import heroimage from "../public/img01.jpg";
 
 export default function HeroSection() {
   return (
@@ -30,11 +31,11 @@ export default function HeroSection() {
         </div>
         <div className=" lg:mt-0 lg:col-span-5 lg:flex ">
           <Image
-            src="/../public/img01.jpg"
+            src={heroimage}
             alt="hero image"
-            width="1500"
+            width="2500"
             height="2500"
-            className=" rounded-lg pt-10"
+            className=" rounded-lg pt-10 hover:scale-125 transition-transform duration-200 ease-in-out"
           />
         </div>
       </div>

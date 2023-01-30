@@ -20,11 +20,11 @@ export default function ChooseUs() {
 
         <div className="items-center flex justify-center py-10 rounded-lg">
           <Image
-            src="/../public/assets/banker.jpg"
+            src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             width="700"
             height="600"
             alt="#"
-            className="rounded-2xl"
+            className="rounded-2xl hover:scale-110 transition-transform duration-200 ease-in-out"
           />
         </div>
 

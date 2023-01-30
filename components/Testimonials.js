@@ -27,7 +27,7 @@ export default function Testimonials() {
             <Image
               alt="woman"
               class="w-6 h-6 rounded-full"
-              src="/../public/img05-girl.png"
+              src="https://images.unsplash.com/photo-1599566219227-2efe0c9b7f5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
               width={10}
               height={10}
             />
@@ -54,7 +54,7 @@ export default function Testimonials() {
           <figcaption class="flex items-center justify-center mt-6 space-x-3">
             <Image
               class="w-6 h-6 rounded-full"
-              src="/../public/img06-man.jpg"
+              src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
               width={50}
               height={50}
               alt="man-picture"

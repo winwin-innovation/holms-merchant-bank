@@ -74,13 +74,13 @@ export default function OurFeatures() {
             </li>
           </ul>
         </div>
-        <div class="relative mt-10 -mx-4 md:-mx-12 lg:mt-5 lg:col-start-1 hover:scale-125 transition-transform duration-200 ease-in-out">
+        <div class="relative mt-10 -mx-4 md:-mx-12 lg:mt-5 lg:col-start-1 hover:scale-110 transition-transform duration-200 ease-in-out">
           <Image
-            src="/../public/img03-bank.png"
+            src="https://images.unsplash.com/photo-1576165767834-a2ad08f13264?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
             alt="banker"
             class="relative w-auto mx-auto shadow-lg rounded-2xl"
-            width={300}
-            height={300}
+            width={350}
+            height={350}
           />
         </div>
       </div>

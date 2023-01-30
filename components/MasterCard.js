@@ -1,4 +1,5 @@
 import Image from "next/image";
+import mastercardlogo from "../public/assets/Mastercard_2019_logo.svg";
 
 export default function MasterCard() {
   return (
@@ -9,7 +10,7 @@ export default function MasterCard() {
             <Image
               class="mb-0 mr-4 w-1/10"
               priority
-              src="/../public/img02.png"
+              src={mastercardlogo}
               alt="mastercard"
               width="50"
               height="50"
@@ -34,7 +35,7 @@ export default function MasterCard() {
             <Image
               class="mb-0 mr-4 w-1/10"
               priority
-              src="/../public/img02.png"
+              src={mastercardlogo}
               alt="mastercard"
               width="50"
               height="50"

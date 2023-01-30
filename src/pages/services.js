@@ -37,7 +37,7 @@ export default function Services() {
 
         <Image
           alt="creditcards"
-          src="/../public/img07-cards.jpeg"
+          src="https://images.unsplash.com/photo-1614267118647-20c5ffa6a6e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
           class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tl-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tl-[60px]"
           height={900}
           width={900}

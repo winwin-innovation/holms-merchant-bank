@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { BsFillCheckCircleFill } from "react-icons/bs";
+import global from "../public/assets/feature-2.png";
 
 export default function WeInvest() {
   return (
@@ -7,10 +8,10 @@ export default function WeInvest() {
       <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
           <Image
-            width={500}
-            height={500}
-            className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-            src="/../public/assets/feature-2.png"
+            width={600}
+            height={600}
+            className="overflow:hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
+            src={global}
             alt="feature image 2"
           />
           <div className=" sm:text-lg text-gray-400">

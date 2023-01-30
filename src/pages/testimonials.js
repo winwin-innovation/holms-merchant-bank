@@ -23,7 +23,7 @@ export default function Testimonials() {
             <div>
               <Image
                 alt="Woman-testimonial"
-                src="/../public/img05-girl.png"
+                src="https://images.unsplash.com/photo-1599566219227-2efe0c9b7f5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
                 width={300}
                 height={300}
@@ -52,7 +52,7 @@ export default function Testimonials() {
             <div>
               <Image
                 alt="Woman2"
-                src="/../public/img08-girl.png"
+                src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
                 width={300}
                 height={300}
@@ -82,7 +82,7 @@ export default function Testimonials() {
             <div>
               <Image
                 alt="man3"
-                src="/../public/img06-man.jpg"
+                src="https://images.unsplash.com/photo-1633079527517-a43fd76cb142?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
                 width={300}
                 height={300}
@@ -111,7 +111,7 @@ export default function Testimonials() {
             <div>
               <Image
                 alt="man4"
-                src="/../public/img09-man.png"
+                src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
                 width={300}
                 height={300}
@@ -140,7 +140,7 @@ export default function Testimonials() {
             <div>
               <Image
                 alt="woman5"
-                src="/../public/img10-girl.png"
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzaW5lc3N3b21hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
                 width={300}
                 height={300}
@@ -169,7 +169,7 @@ export default function Testimonials() {
             <div>
               <Image
                 alt="Woman6"
-                src="/../public/img11-girl.png"
+                src="https://images.unsplash.com/photo-1600273759837-a4d4abb62142?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJ1c2luZXNzd29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
                 width={300}
                 height={300}
