@@ -100,8 +100,8 @@ const Login = () => {
                   &quot;The Safe for all currencies&quot;
                 </h4>
                 <p class="z-20 text-white ">
-                  There's no other place to safeguard your resources than Holms
-                  Merchant Bank. Your topmost security is our priority.
+                  There&rsquo;s no other place to safeguard your resources than
+                  Holms Merchant Bank. Your topmost security is our priority.
                 </p>
               </div>
             </div>

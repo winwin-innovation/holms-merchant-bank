@@ -22,7 +22,7 @@ export default function Testimonials() {
           <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-16 lg:grid-cols-3">
             <div>
               <Image
-                alt="Woman"
+                alt="Woman-testimonial"
                 src="/../public/img05-girl.png"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
                 width={300}

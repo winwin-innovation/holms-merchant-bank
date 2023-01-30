@@ -25,6 +25,7 @@ export default function Testimonials() {
           </blockquote>
           <figcaption class="flex items-center justify-center mt-6 space-x-3">
             <Image
+              alt="woman"
               class="w-6 h-6 rounded-full"
               src="/../public/img05-girl.png"
               width={10}
