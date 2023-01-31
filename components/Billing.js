@@ -72,7 +72,7 @@ export default function Billing() {
                       <div class="relative z-10 flex-auto p-4">
                         <i class="p-2 text-red-500 fas fa-wifi"></i>
                         <h5 class="pb-2 mt-6 mb-12 text-white">
-                          4562 1122 4594 7852
+                          5356 6822 4594 7852
                         </h5>
                         <div class="flex">
                           <div class="flex">
