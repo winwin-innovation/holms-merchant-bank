@@ -11,6 +11,7 @@ import AddsOn from "../../components/AddsOn";
 import Footer from "../../components/Footer";
 import About from "../../components/About";
 import OurFeatures from "../../components/OurFeatures";
+import OurTeam from "../../components/OurTeam";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function Home() {
       <ChooseUs />
       <TrustedWorldwide />
       <Testimonials />
+      <OurTeam />
       <AddsOn />
       <Footer />
     </>

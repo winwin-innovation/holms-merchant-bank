@@ -1,6 +1,6 @@
 export default function AddsOn() {
   return (
-    <section class="bg-gray-900 text-white">
+    <section class="bg-gray-800 text-white">
       <div class="mx-auto w-full max-w-screen-xl px-4 py-4 lg:flex lg:h-screen lg:items-center">
         <div class="mx-auto w-full text-center">
           <h1 class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-7xl font-bold text-transparent sm:text-4xl ">

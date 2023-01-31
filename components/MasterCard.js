@@ -15,9 +15,7 @@ export default function MasterCard() {
               width="50"
               height="50"
             />
-            <h6 class="mb-0 text-gray-700 font-bold text-lg">
-              **** **** **** 7852
-            </h6>
+            <h6 class="mb-0 text-gray-700 font-bold text-lg">5356 68** ****</h6>
             <div
               data-target="tooltip"
               class="px-2 py-1 text-sm text-white bg-gray-900 rounded-lg"
@@ -40,7 +38,7 @@ export default function MasterCard() {
               width="50"
               height="50"
             />
-            <h6 class="mb-0 font-bold">**** **** **** 5248</h6>
+            <h6 class="mb-0 font-bold">5356 59** ****</h6>
             <div
               data-target="tooltip"
               class="px-2 py-1 text-sm text-white bg-gray-900 rounded-lg"

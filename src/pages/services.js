@@ -37,6 +37,7 @@ export default function Services() {
 
         <Image
           alt="creditcards"
+          priority
           src="https://images.unsplash.com/photo-1614267118647-20c5ffa6a6e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
           class="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-tl-[30px] md:h-[calc(100%_-_4rem)] md:rounded-tl-[60px]"
           height={900}
@@ -61,7 +62,7 @@ export default function Services() {
           <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-8">
             <div class="flex bg-gray-50 border rounded-lg divide-x">
               <div class="flex items-center text-indigo-500 p-2 md:p-4">
-                <AiOutlineCheck className="w-6 md:w-8 h-6 md:h-8" />
+                <AiOutlineCheck class="w-6 md:w-8 h-6 md:h-8" />
               </div>
 
               <div class="p-4 md:p-6">
@@ -70,16 +71,16 @@ export default function Services() {
                 </h3>
                 <div class="text-gray-500 ">
                   <p>See which accounts best suits you. Be it</p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Savings Account
                   </p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Current Account
                   </p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Fixed Deposit Account
                   </p>
                 </div>
@@ -88,7 +89,7 @@ export default function Services() {
 
             <div class="flex bg-gray-50 border rounded-lg divide-x">
               <div class="flex items-center text-indigo-500 p-2 md:p-4">
-                <AiOutlineCheck className="w-6 md:w-8 h-6 md:h-8" />
+                <AiOutlineCheck class="w-6 md:w-8 h-6 md:h-8" />
               </div>
 
               <div class="p-4 md:p-6">
@@ -97,16 +98,16 @@ export default function Services() {
                 </h3>
                 <div class="text-gray-500">
                   <p>Explore Our Wide Range of Credit Cards</p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Gold Visa Credit Card
                   </p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Silver Visa Credit Card
                   </p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Platinum Visa Credit Card
                   </p>
                 </div>
@@ -115,7 +116,7 @@ export default function Services() {
 
             <div class="flex bg-gray-50 border rounded-lg divide-x">
               <div class="flex items-center text-indigo-500 p-2 md:p-4">
-                <AiOutlineCheck className="w-6 md:w-8 h-6 md:h-8" />
+                <AiOutlineCheck class="w-6 md:w-8 h-6 md:h-8" />
               </div>
 
               <div class="p-4 md:p-6">
@@ -124,16 +125,16 @@ export default function Services() {
                 </h3>
                 <div class="text-gray-500">
                   <p>Explore Our Wide Range of Credit Cards</p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Savings Account
                   </p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Fixed Deposit Account
                   </p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Bonus Investment Account
                   </p>
                 </div>
@@ -142,7 +143,7 @@ export default function Services() {
 
             <div class="flex bg-gray-50 border rounded-lg divide-x">
               <div class="flex items-center text-indigo-500 p-2 md:p-4">
-                <AiOutlineCheck className="w-6 md:w-8 h-6 md:h-8" />
+                <AiOutlineCheck class="w-6 md:w-8 h-6 md:h-8" />
               </div>
 
               <div class="p-4 md:p-6">
@@ -150,8 +151,8 @@ export default function Services() {
                   Prepaid Cards
                 </h3>
                 <div class="text-gray-500">
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Silver Visa Credit Card
                   </p>
                 </div>
@@ -160,7 +161,7 @@ export default function Services() {
 
             <div class="flex bg-gray-50 border rounded-lg divide-x">
               <div class="flex items-center text-indigo-500 p-2 md:p-4">
-                <AiOutlineCheck className="w-6 md:w-8 h-6 md:h-8" />
+                <AiOutlineCheck class="w-6 md:w-8 h-6 md:h-8" />
               </div>
 
               <div class="p-4 md:p-6">
@@ -169,16 +170,16 @@ export default function Services() {
                 </h3>
                 <div class="text-gray-500">
                   <p>Explore Our Wide Range of Credit Cards</p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Diaspora Savings Account
                   </p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Diaspora Fixed Deposit Account
                   </p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Diaspora Bonus Investment Account
                   </p>
                 </div>
@@ -187,7 +188,7 @@ export default function Services() {
 
             <div class="flex bg-gray-50 border rounded-lg divide-x">
               <div class="flex items-center text-indigo-500 p-2 md:p-4">
-                <AiOutlineCheck className="w-6 md:w-8 h-6 md:h-8" />
+                <AiOutlineCheck class="w-6 md:w-8 h-6 md:h-8" />
               </div>
 
               <div class="p-4 md:p-6">
@@ -196,16 +197,16 @@ export default function Services() {
                 </h3>
                 <div class="text-gray-500">
                   <p>Explore Our Wide Range of Credit Cards</p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     Online Banking
                   </p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     USSD Mobile Banking
                   </p>
-                  <p className="inline-bloc items-center  flex">
-                    <GoPrimitiveDot className="mr-4" />
+                  <p class="inline-bloc items-center  flex">
+                    <GoPrimitiveDot class="mr-4" />
                     ATM Banking
                   </p>
                 </div>

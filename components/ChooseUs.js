@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { MdSecurity, MdSavings } from "react-icons/md";
 import { BsFillPhoneFill, BsArrowRight } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
@@ -29,9 +30,9 @@ export default function ChooseUs() {
         </div>
 
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <a
+          <Link
             class="block rounded-xl border border-gray-800 p-8  transition hover:shadow-indigo-500/10 shadow-lg"
-            href="/services/digital-campaigns"
+            href="#"
           >
             <MdSecurity className="text-3xl text-indigo-500" />
 
@@ -41,11 +42,11 @@ export default function ChooseUs() {
               Our bank uses advanced security measures to protect our
               client&apos;s personal and financial information.
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             class="block rounded-xl border border-gray-800 p-8  transition hover:shadow-indigo-500/10 shadow-lg"
-            href="/services/digital-campaigns"
+            href="#"
           >
             <BsFillPhoneFill className="text-3xl text-indigo-500" />
 
@@ -56,11 +57,11 @@ export default function ChooseUs() {
               allowing clients to manage their accounts and conduct transactions
               quickly and efficiently.
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             class="block rounded-xl border border-gray-800 p-8  transition hover:shadow-indigo-500/10 shadow-lg"
-            href="/services/digital-campaigns"
+            href="#"
           >
             <CgWebsite className="text-3xl text-indigo-500" />
 
@@ -71,11 +72,11 @@ export default function ChooseUs() {
               balances, transaction history, and manage their accounts from the
               comfort of their own home or office.
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             class="block rounded-xl border border-gray-800 p-8  transition hover:shadow-indigo-500/10 shadow-lg"
-            href="/services/digital-campaigns"
+            href="#"
           >
             <RiMoneyPoundCircleFill className="text-3xl text-indigo-500" />
 
@@ -87,11 +88,11 @@ export default function ChooseUs() {
               We offer competitive interest rates on savings and investment
               accounts to help our clients grow their money.
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             class="block rounded-xl border border-gray-800 p-8  transition hover:shadow-indigo-500/10 shadow-lg"
-            href="/services/digital-campaigns"
+            href="#"
           >
             <MdSavings className="text-3xl text-indigo-500" />
 
@@ -105,11 +106,11 @@ export default function ChooseUs() {
               including checking and savings accounts, credit cards, and
               investment options.
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             class="block rounded-xl border border-gray-800 p-8  transition hover:border-indigo-500/10 hover:shadow-indigo-500/10 shadow-lg"
-            href="/services/digital-campaigns"
+            href="#"
           >
             <RiCustomerService2Fill className="text-3xl text-indigo-500" />
 
@@ -121,18 +122,18 @@ export default function ChooseUs() {
               We provide personalized service to our clients, offering support
               and guidance to help them make informed financial decisions.
             </p>
-          </a>
+          </Link>
         </div>
 
         <div class="mt-12 text-center">
-          <a
-            href="#"
+          <Link
+            href="/"
             class="mt-8 inline-flex items-center rounded border border-indigo-600 bg-indigo-600 px-8 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-indigo-500"
           >
             <span class="text-sm font-medium"> Get Started </span>
 
             <BsArrowRight className="text-2xl text-white ml-2" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

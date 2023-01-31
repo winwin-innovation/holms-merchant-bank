@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import SignOutButton from "./SignOutButton";
 import mastercardlogo from "../public/assets/Mastercard_2019_logo.svg";
 import { AiFillCreditCard } from "react-icons/ai";
@@ -23,22 +24,25 @@ export default function Billing() {
             <nav>
               <ol class="flex flex-wrap pt-1 mr-12 bg-transparent rounded-lg sm:mr-16">
                 <Profile />
-                <li class="text-sm leading-normal flex items-center">
+                <Link class="text-sm leading-normal flex items-center" href="#">
                   <MdComputer class="ml-5 mr-2 text-xl" />
-                  <a href="#">
+                  <a>
                     <h1 class="text-gray-300  font-medium text-xl">
                       Dashboard
                     </h1>
                   </a>
-                </li>
-                <li class="text-sm leading-normal flex items-center">
+                </Link>
+                <Link
+                  class="text-sm leading-normal flex items-center"
+                  href="settings"
+                >
                   <AiFillCreditCard class="ml-5 mr-2 text-xl" />
-                  <a href="settings">
+                  <a>
                     <h1 class="text-gray-300  font-medium text-xl">
                       Change Card CVV
                     </h1>
                   </a>
-                </li>
+                </Link>
               </ol>
             </nav>
 
