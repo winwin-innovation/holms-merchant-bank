@@ -15,7 +15,7 @@ export default function Services() {
             <h2 class="text-7xl font-bold text-white md:text-3xl">
               Our Services
             </h2>
-            <h2 class="text-9xl font-bold text-white md:text-3xl">
+            <h2 class="text-7xl font-bold text-white md:text-3xl">
               ranges from the below.
             </h2>
 
@@ -213,9 +213,8 @@ export default function Services() {
             </div>
           </div>
         </div>
+        <AddsOn />
       </div>
-
-      <AddsOn />
     </div>
   );
 }

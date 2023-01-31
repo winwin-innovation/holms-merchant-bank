@@ -76,7 +76,7 @@ export default function OurFeatures() {
         </div>
         <div class="relative mt-10 -mx-4 md:-mx-12 lg:mt-5 lg:col-start-1 hover:scale-110 transition-transform duration-200 ease-in-out">
           <Image
-            src="https://images.unsplash.com/photo-1576165767834-a2ad08f13264?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+            src="https://images.unsplash.com/photo-1533421644343-45b606745fb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
             alt="banker"
             class="relative w-auto mx-auto shadow-lg rounded-2xl"
             width={350}

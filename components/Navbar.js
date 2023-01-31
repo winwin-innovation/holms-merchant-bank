@@ -90,10 +90,10 @@ export default function Navbar() {
               <Link href="/">Home</Link>
             </li>
             <li className="border-b-2 border-zinc-300 w-full p-4 cursor-pointer">
-              <Link href=""> Services</Link>
+              <Link href="services"> Services</Link>
             </li>
             <li className="border-b-2 border-zinc-300 w-full p-4">
-              <Link href="testomials"> Testimonials</Link>
+              <Link href="testimonials"> Testimonials</Link>
             </li>
             <li className="border-b-2 border-zinc-300 w-full p-4">
               <Link href="contact"> Contact us</Link>
