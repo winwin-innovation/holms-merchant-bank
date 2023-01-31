@@ -1,4 +1,4 @@
-import { FaFilePdf } from "react-icons/fa";
+import { RiMoneyPoundCircleFill } from "react-icons/ri";
 
 export default function Invoice() {
   return (
@@ -25,7 +25,7 @@ export default function Invoice() {
               <div class="flex items-center text-sm leading-normal text-gray-700/80">
                 £180
                 <button class="text-gray-700 inline-block px-0 py-2.5 mb-0 ml-6 font-bold leading-normal text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer ease-in bg-150 text-sm active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25 ">
-                  <FaFilePdf className="text-3xl" />
+                  <RiMoneyPoundCircleFill className="text-3xl" />
                 </button>
               </div>
             </li>
@@ -41,7 +41,7 @@ export default function Invoice() {
               <div class="flex items-center text-sm leading-normal text-gray-700/80">
                 £250
                 <button class="text-gray-700 inline-block px-0 py-2.5 mb-0 ml-6 font-bold leading-normal text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer ease-in bg-150 text-sm active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25 ">
-                  <FaFilePdf className="text-3xl" />
+                  <RiMoneyPoundCircleFill className="text-3xl" />
                 </button>
               </div>
             </li>
@@ -57,7 +57,7 @@ export default function Invoice() {
               <div class="flex items-center text-sm leading-normal text-gray-700/80">
                 £560
                 <button class="text-gray-700 inline-block px-0 py-2.5 mb-0 ml-6 font-bold leading-normal text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer ease-in bg-150 text-sm active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25 ">
-                  <FaFilePdf className="text-3xl" />
+                  <RiMoneyPoundCircleFill className="text-3xl" />
                 </button>
               </div>
             </li>
@@ -73,7 +73,7 @@ export default function Invoice() {
               <div class="flex items-center text-sm leading-normal text-gray-700/80">
                 £120
                 <button class="dtext-gray-700 inline-block px-0 py-2.5 mb-0 ml-6 font-bold leading-normal text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer ease-in bg-150 text-sm active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25 text-gray-700">
-                  <FaFilePdf className="text-3xl" />
+                  <RiMoneyPoundCircleFill className="text-3xl" />
                 </button>
               </div>
             </li>
@@ -89,7 +89,7 @@ export default function Invoice() {
               <div class="flex items-center text-sm leading-normal text-gray-700/80">
                 £300
                 <button class="dtext-gray-700 inline-block px-0 py-2.5 mb-0 ml-6 font-bold leading-normal text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer ease-in bg-150 text-sm active:opacity-85 hover:-translate-y-px tracking-tight-rem bg-x-25 ">
-                  <FaFilePdf className="text-3xl" />
+                  <RiMoneyPoundCircleFill className="text-3xl" />
                 </button>
               </div>
             </li>
