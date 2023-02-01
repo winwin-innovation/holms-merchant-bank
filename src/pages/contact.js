@@ -26,9 +26,12 @@ export default function Contact() {
 
             <div class="mt-8 ">
               <p className="text-white uppercase">call us</p>
-              <a href="" class="text-2xl font-bold text-pink-600 flex py-5">
-                <FiPhoneCall className="mr-4 " />
+
+              <a href="" class="text-2xl font-normal text-white flex py-5">
                 +44 020 8133 6340
+              </a>
+              <a href="" class="text-2xl font-normal text-white flex py-5">
+                +44 123 4416 028
               </a>
 
               <p className="text-white py-5">
@@ -38,80 +41,74 @@ export default function Contact() {
 
               <p class="mt-2  text-white flex text-xl py-5">
                 <AiOutlineMail className="mr-4 text-2xl" />
-                support@holmsmerchantbank.co.uk
+                support@holmsbank.co.uk
               </p>
             </div>
           </div>
 
           <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
-            <form
-              action="https://formsubmit.co/winwininnovation@gmail.com"
-              method="POST"
-              class="space-y-4"
-            >
+            <div>
+              <label class="sr-only" for="name">
+                Name
+              </label>
+              <input
+                class="w-full rounded-lg border-gray-200 p-3 text-sm"
+                placeholder="Name"
+                type="text"
+                id="name"
+              />
+            </div>
+
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
-                <label class="sr-only" for="name">
-                  Name
+                <label class="sr-only" for="email">
+                  Email
                 </label>
                 <input
                   class="w-full rounded-lg border-gray-200 p-3 text-sm"
-                  placeholder="Name"
-                  type="text"
-                  id="name"
+                  placeholder="Email address"
+                  type="email"
+                  id="email"
                 />
               </div>
 
-              <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                <div>
-                  <label class="sr-only" for="email">
-                    Email
-                  </label>
-                  <input
-                    class="w-full rounded-lg border-gray-200 p-3 text-sm"
-                    placeholder="Email address"
-                    type="email"
-                    id="email"
-                  />
-                </div>
-
-                <div>
-                  <label class="sr-only" for="phone">
-                    Phone
-                  </label>
-                  <input
-                    class="w-full rounded-lg border-gray-200 p-3 text-sm"
-                    placeholder="Phone Number"
-                    type="tel"
-                    id="phone"
-                  />
-                </div>
-              </div>
-
               <div>
-                <label class="sr-only" for="message">
-                  Message
+                <label class="sr-only" for="phone">
+                  Phone
                 </label>
-                <textarea
+                <input
                   class="w-full rounded-lg border-gray-200 p-3 text-sm"
-                  placeholder="Message"
-                  rows="8"
-                  id="message"
-                ></textarea>
+                  placeholder="Phone Number"
+                  type="tel"
+                  id="phone"
+                />
               </div>
+            </div>
 
-              <div class="mt-4">
-                <a href={`mailto:winwininnovation@gmail.com`}>
-                  <button
-                    type="submit"
-                    class="inline-flex w-full items-center justify-center rounded-lg bg-black px-5 py-3 text-white sm:w-auto"
-                  >
-                    <span class="font-medium"> Send Enquiry </span>
+            <div>
+              <label class="sr-only" for="message">
+                Message
+              </label>
+              <textarea
+                class="w-full rounded-lg border-gray-200 p-3 text-sm"
+                placeholder="Message"
+                rows="8"
+                id="message"
+              ></textarea>
+            </div>
 
-                    <BsArrowRight className="h-5 w-5 ml-2" />
-                  </button>
-                </a>
-              </div>
-            </form>
+            <div class="mt-4">
+              <a href="mailto:support@holmsbank.co.uk">
+                <button
+                  type="submit"
+                  class="inline-flex w-full items-center justify-center rounded-lg bg-black px-5 py-3 text-white sm:w-auto"
+                >
+                  <span class="font-medium"> Send Enquiry </span>
+
+                  <BsArrowRight className="h-5 w-5 ml-2" />
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

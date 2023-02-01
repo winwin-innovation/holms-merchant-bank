@@ -15,17 +15,9 @@ export default function MasterCard() {
               width="50"
               height="50"
             />
-            <h6 class="mb-0 text-gray-700 font-bold text-lg">5356 68** ****</h6>
-            <div
-              data-target="tooltip"
-              class="px-2 py-1 text-sm text-white bg-gray-900 rounded-lg"
-            >
-              Card 1
-              <div
-                class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']"
-                data-popper-arrow
-              ></div>
-            </div>
+            <h6 class="mb-0 text-gray-700 font-bold text-lg">
+              **** **** **** 7852
+            </h6>
           </div>
         </div>
         <div class="max-w-full px-3 md:w-1/2 md:flex-none">
@@ -38,17 +30,7 @@ export default function MasterCard() {
               width="50"
               height="50"
             />
-            <h6 class="mb-0 font-bold">5356 59** ****</h6>
-            <div
-              data-target="tooltip"
-              class="px-2 py-1 text-sm text-white bg-gray-900 rounded-lg"
-            >
-              Card 2
-              <div
-                class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']"
-                data-popper-arrow
-              ></div>
-            </div>
+            <h6 class="mb-0 font-bold">**** **** **** 1807</h6>
           </div>
         </div>
       </div>
