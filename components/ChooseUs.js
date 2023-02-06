@@ -31,7 +31,7 @@ export default function ChooseUs() {
 
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <Link
-            class="block rounded-xl border border-gray-800 p-8  transition hover:shadow-indigo-500/10 shadow-lg"
+            class="block rounded-xl border border-gray-800 p-8   shadow-lg pointer-events-none"
             href="#"
           >
             <MdSecurity className="text-3xl text-indigo-500" />
@@ -45,7 +45,7 @@ export default function ChooseUs() {
           </Link>
 
           <Link
-            class="block rounded-xl border border-gray-800 p-8  transition hover:shadow-indigo-500/10 shadow-lg"
+            class="block rounded-xl border border-gray-800 p-8   shadow-lg pointer-events-none"
             href="#"
           >
             <BsFillPhoneFill className="text-3xl text-indigo-500" />
@@ -60,7 +60,7 @@ export default function ChooseUs() {
           </Link>
 
           <Link
-            class="block rounded-xl border border-gray-800 p-8  transition hover:shadow-indigo-500/10 shadow-lg"
+            class="block rounded-xl border border-gray-800 p-8   shadow-lg pointer-events-none"
             href="#"
           >
             <CgWebsite className="text-3xl text-indigo-500" />
@@ -75,8 +75,8 @@ export default function ChooseUs() {
           </Link>
 
           <Link
-            class="block rounded-xl border border-gray-800 p-8  transition hover:shadow-indigo-500/10 shadow-lg"
-            href="#"
+            class="block rounded-xl border border-gray-800 p-8   shadow-lg pointer-events-none"
+            href="/"
           >
             <RiMoneyPoundCircleFill className="text-3xl text-indigo-500" />
 
@@ -91,7 +91,7 @@ export default function ChooseUs() {
           </Link>
 
           <Link
-            class="block rounded-xl border border-gray-800 p-8  transition hover:shadow-indigo-500/10 shadow-lg"
+            class="block rounded-xl border border-gray-800 p-8   shadow-lg pointer-events-none"
             href="#"
           >
             <MdSavings className="text-3xl text-indigo-500" />
@@ -109,7 +109,7 @@ export default function ChooseUs() {
           </Link>
 
           <Link
-            class="block rounded-xl border border-gray-800 p-8  transition hover:border-indigo-500/10 hover:shadow-indigo-500/10 shadow-lg"
+            class="block rounded-xl border border-gray-800 p-8  transition hover:border-indigo-500/10 hover:shadow-indigo-500/10 shadow-lg pointer-events-none"
             href="#"
           >
             <RiCustomerService2Fill className="text-3xl text-indigo-500" />
