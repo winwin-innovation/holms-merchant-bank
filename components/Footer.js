@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div class="bg-gray-800 pt-4 sm:pt-10 lg:pt-12">
-      <footer class="max-w-screen-2xl px-4 md:px-8 mx-auto">
-        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 border-t gap-12 lg:gap-8 pt-10 lg:pt-12 mb-16">
+      <footer class="max-w-screen-2xl w-full px-4 md:px-8 mx-auto sm:px-5 sm:w-full">
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6  gap-12 lg:gap-8 pt-10 lg:pt-12 mb-16 ">
           <div class="col-span-full lg:col-span-2">
             <div class="lg:-mt-2 mb-4">
               <Link
@@ -76,7 +76,7 @@ export default function Footer() {
 
               <div>
                 <Link
-                  href="testimoies"
+                  href="testimonials"
                   class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                 >
                   Testimonials
@@ -89,59 +89,6 @@ export default function Footer() {
                   class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                 >
                   Contact us
-                </Link>
-              </div>
-            </nav>
-          </div>
-
-          <div>
-            <div class="text-white font-bold tracking-widest uppercase mb-4">
-              features
-            </div>
-
-            <nav class="flex flex-col gap-4">
-              <div>
-                <Link
-                  href="#"
-                  class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
-                >
-                  Security
-                </Link>
-              </div>
-
-              <div>
-                <Link
-                  href="#"
-                  class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
-                >
-                  Convenience
-                </Link>
-              </div>
-
-              <div>
-                <Link
-                  href="#"
-                  class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
-                >
-                  Online banking
-                </Link>
-              </div>
-
-              <div>
-                <Link
-                  href="#"
-                  class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
-                >
-                  Competitive interest Rate
-                </Link>
-              </div>
-
-              <div>
-                <Link
-                  href="#"
-                  class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
-                >
-                  Custom Service
                 </Link>
               </div>
             </nav>
@@ -201,7 +148,8 @@ export default function Footer() {
         </div>
 
         <div class="text-gray-400 text-sm text-center border-t py-8">
-          © 2023 - Holms Merchant Banks. All rights reserved.
+          © 2023 - Holms Merchant Banks. <br />
+          All rights reserved.
         </div>
       </footer>
     </div>
