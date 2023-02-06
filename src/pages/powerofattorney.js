@@ -9,8 +9,8 @@ export default function PowerofAttorney() {
       <div class="items-center text-center justify-center flex">
         <Image
           src={Power}
-          width="1000"
-          height="1000"
+          width="800"
+          height="800"
           class="items-center text-center justify-center flex"
         />
       </div>
