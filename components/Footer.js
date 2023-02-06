@@ -164,10 +164,19 @@ export default function Footer() {
 
               <div>
                 <Link
-                  href="sontact"
+                  href="contact"
                   class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
                 >
                   Contact us
+                </Link>
+              </div>
+
+              <div>
+                <Link
+                  href="powerofattorney"
+                  class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100"
+                >
+                  Power of Attorney
                 </Link>
               </div>
             </nav>
