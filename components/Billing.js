@@ -10,11 +10,13 @@ import AccountTransaction from "../components/AccountTransaction";
 import BillInformation from "../components/BillInformation";
 import PaymentMethod from "../components/PaymentMethod";
 import Profile from "../components/Profile";
+import DashboardNavbar from "../components/DashboardNavbar";
 
 export default function Billing() {
   return (
     <body class="m-0 font-sans text-base antialiased font-normal bg-slate-900 leading-default  text-slate-500">
       <main class="relative h-full max-h-screen transition-all duration-200 ease-in-out xl:ml-68 rounded-xl">
+        <DashboardNavbar />
         <nav
           class="relative flex flex-wrap items-center justify-between px-0 py-2 mx-6 transition-all ease-in shadow-none duration-250 rounded-2xl lg:flex-nowrap lg:justify-start "
           navbar-main
@@ -53,9 +55,6 @@ export default function Billing() {
                     <i class="fas fa-search"></i>
                   </span>
                 </div>
-              </div>
-              <div>
-                <SignOutButton />
               </div>
             </div>
           </div>
