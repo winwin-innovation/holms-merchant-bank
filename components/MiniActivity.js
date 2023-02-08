@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import DashboardNavbar from "../../components/DashboardNavbar";
-import DashboardFooter from "../../components/DashboardFooter";
 
 const transactions = [
   {
@@ -38,41 +36,6 @@ const transactions = [
     amount: -10500,
     recipient: "Sarah Legge",
   },
-  {
-    id: 6,
-    date: "2007-07-03",
-    year: 2007,
-    amount: -32600,
-    recipient: "Andrew Newman",
-  },
-  {
-    id: 7,
-    date: "2007-06-09",
-    year: 2020,
-    amount: -11700,
-    recipient: "Katherine Hartley",
-  },
-  {
-    id: 8,
-    date: "2006-11-01",
-    year: 2020,
-    amount: -1800,
-    recipient: "Elisabeth Walder",
-  },
-  {
-    id: 9,
-    date: "2006-06-09",
-    year: 2006,
-    amount: -19000,
-    recipient: "Philip Gibson",
-  },
-  {
-    id: 10,
-    date: "2006-05-11",
-    year: 2006,
-    amount: -107000,
-    recipient: "Joshua Slevi",
-  },
 ];
 
 const TransactionHistory = () => {
@@ -91,7 +54,6 @@ const TransactionHistory = () => {
   return (
     <>
       <div>
-        <DashboardNavbar />
         <div class="mb-4 flex justify-between mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 py-6">
           <h2 class="text-2xl font-bold">Transaction History</h2>
           <div class="flex items-center">
@@ -140,7 +102,6 @@ const TransactionHistory = () => {
           </tbody>
         </table>
       </div>
-      <DashboardFooter />
     </>
   );
 };

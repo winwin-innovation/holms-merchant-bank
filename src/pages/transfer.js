@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DashboardNavbar from "../../components/DashboardNavbar";
+import DashboardFooter from "../../components/DashboardFooter";
 
 const TransferFunds = () => {
   const [formData, setFormData] = useState({
@@ -246,6 +247,7 @@ const TransferFunds = () => {
           )}
         </form>
       </div>
+      <DashboardFooter />
     </>
   );
 };
