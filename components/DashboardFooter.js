@@ -1,12 +1,12 @@
-import React from "react";
-
-const Footer = () => (
-  <footer className="bg-gray-800 text-white text-center p-4 mt-20">
-    Copyright © 2023{" "}
-    <a href="https://holmsbank.co.uk" className="underline">
-      www.holmsbank.co.uk
-    </a>
-  </footer>
-);
-
-export default Footer;
+export default function Footer() {
+  return (
+    <div class="bg-gray-800 pt-4 sm:pt-10 lg:pt-12  md:w-32">
+      <footer class="max-w-screen-2xl w-full px-4 md:px-8 mx-auto sm:px-5 sm:w-full">
+        <div class="text-gray-400 text-sm text-center border-t py-8">
+          © 2023 - Holms Merchant Banks. <br />
+          All rights reserved.
+        </div>
+      </footer>
+    </div>
+  );
+}

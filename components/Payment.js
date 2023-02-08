@@ -23,7 +23,7 @@ export default function Payment() {
   };
 
   return (
-    <body class="flex items-center justify-center w-screen h-screen bg-gray-100 text-gray-800 ">
+    <div class="flex items-center justify-center w-screen h-screen bg-gray-100 text-gray-800 ">
       <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 w-full max-w-screen-lg">
         <div class="lg:col-span-2">
           <h2 class="text-sm font-medium">Enter current Credit Card details</h2>
@@ -195,6 +195,6 @@ export default function Payment() {
           </div>
         </div>
       </div>
-    </body>
+    </div>
   );
 }
