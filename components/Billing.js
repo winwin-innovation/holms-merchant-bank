@@ -11,7 +11,6 @@ export default function Billing() {
         <div class="">
           <DashboardNavbar />
           <AccountDetails />
-          <CreditCard />
           <MiniActivity />
           <DashboardFooter />
         </div>
