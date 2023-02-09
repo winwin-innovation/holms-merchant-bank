@@ -11,7 +11,7 @@ export default function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <header aria-label="Site Header" class=" bg-gray-800 w-full py-2">
+    <header aria-label="Site Header" class=" bg-gray-800 w-full py-4">
       <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
           <div class="md:flex md:items-center md:gap-12 flex items-center justify-center">
@@ -36,7 +36,7 @@ export default function Navbar() {
                 <>
                   <Link
                     class="text-white text-lg font-medium transition hover:text-gray-300/75 flex items-center"
-                    href="transfer"
+                    href="transaction"
                   >
                     <BiTransfer class="mr-2" />
                     Transfer

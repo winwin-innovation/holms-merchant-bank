@@ -22,7 +22,7 @@ export default function AccountDetails() {
         </table>
       </div>
       <div className="mt-4 text-xl font-medium mx-auto py-2 mb-4 flex justify-between  max-w-screen-xl px-4 sm:px-6 lg:px-8">
-        Account Balance: £8.5 Million
+        Account Balance: £8,500,00
       </div>
     </>
   );

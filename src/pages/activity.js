@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import DashboardNavbar from "../../components/DashboardNavbar";
 import DashboardFooter from "../../components/DashboardFooter";
+import Transaction from "../pages/transaction";
 
 const transactions = [
   {
@@ -92,7 +93,9 @@ const TransactionHistory = () => {
     <>
       <div>
         <DashboardNavbar />
+
         <div class="mb-4 flex justify-between mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 py-6">
+          <transaction />
           <h2 class="text-2xl font-bold">Transaction History</h2>
           <div class="flex items-center">
             <label class="mr-2 font-medium" htmlFor="sort-by">

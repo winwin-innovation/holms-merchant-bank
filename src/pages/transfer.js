@@ -122,9 +122,9 @@ const TransferFunds = () => {
 
   return (
     <>
-      <div className="text-center text-gray-800 py-10 font-bold text-2xl">
+      <div className="text-center text-gray-800  font-bold text-2xl">
         <DashboardNavbar />
-        <h1>Transfer Funds</h1>
+        <h1 className="py-10">Transfer Funds</h1>
       </div>
       <div className=" mx-auto w-[60%] p-4">
         <form onSubmit={handleSubmit}>

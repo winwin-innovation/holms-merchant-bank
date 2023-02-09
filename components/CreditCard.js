@@ -7,7 +7,7 @@ export default function CreditCard() {
             <div class="h-full flex flex-col justify-between">
               <div class="flex items-start justify-between space-x-4">
                 <div class=" text-xl font-semibold tracking-tigh">
-                  HOLMS MERCHANT BANK
+                  4562 1122 4594 7852
                 </div>
 
                 <div class="inline-flex flex-col items-center justify-center">
@@ -28,9 +28,7 @@ export default function CreditCard() {
               </div>
 
               <div class="">
-                <div class="text-xs font-semibold tracking-tight">Balance</div>
-
-                <div class="text-2xl font-semibold">£8.5 Million</div>
+                <div class="text-2xl font-semibold">Shawn G. Glaude</div>
               </div>
             </div>
           </div>
