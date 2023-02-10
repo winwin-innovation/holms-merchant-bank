@@ -2,7 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import SignOutButton from "../components/SignOutButton";
 import { AiFillCreditCard } from "react-icons/ai";
-import { FiActivity } from "react-icons/fi";
+import { FiActivity, FiSettings } from "react-icons/fi";
 import { MdComputer } from "react-icons/md";
 import { BiTransfer } from "react-icons/bi";
 
@@ -60,6 +60,15 @@ export default function Navbar() {
                   >
                     <AiFillCreditCard class="mr-2" />
                     Change CVV
+                  </Link>
+                </>
+                <>
+                  <Link
+                    class="text-white text-lg font-medium transition hover:text-gray-300/75 flex items-center"
+                    href="settingsPage"
+                  >
+                    <FiSettings class="mr-2" />
+                    Settings
                   </Link>
                 </>
               </ul>

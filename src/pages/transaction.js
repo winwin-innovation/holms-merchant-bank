@@ -1,6 +1,15 @@
 import React, { useState } from "react";
 import DashboardNavbar from "../../components/DashboardNavbar";
 
+const countries = [
+  "USA",
+  "Canada",
+  "Mexico",
+  "Brazil",
+  "Argentina",
+  "Colombia",
+];
+
 const TransactionHistory = () => {
   const [transactions, setTransactions] = useState([
     {
@@ -115,6 +124,36 @@ const TransactionHistory = () => {
               id="amount"
               name="amount"
               type="number"
+              required
+            />
+          </div>
+          <div className="mb-4">
+            <label
+              className="block text-gray-700 font-bold mb-2"
+              htmlFor="recipient"
+            >
+              Swift Code
+            </label>
+            <input
+              className="border border-gray-400 p-2 w-full"
+              id="recipient"
+              name="recipient"
+              type="text"
+              required
+            />
+          </div>
+          <div className="mb-4">
+            <label
+              className="block text-gray-700 font-bold mb-2"
+              htmlFor="recipient"
+            >
+              Country
+            </label>
+            <input
+              className="border border-gray-400 p-2 w-full"
+              id="recipient"
+              name="recipient"
+              type="text"
               required
             />
           </div>
